@@ -1,0 +1,129 @@
+body, html {
+  height: 100%;
+ 
+ 
+  
+  background: rgb(28, 25, 67);
+}
+
+figcaption{
+  color: rgb(163, 192, 192);
+  font-family: 'Montserrat', sans-serif;
+  /* margin :10px; */
+}
+
+.main-div{
+  position: fixed;
+  top: 30%;
+  left: 40%;
+  /* Center vertically and horizontally */
+  /*using flex display */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.child-div{
+  /* background: rgb(231, 180, 180); */
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+.addItems{
+  background-color: aliceblue;
+  border-radius: 2px;
+  border-style: dashed;
+  border-color: rgb(19, 34, 29);
+  margin: 10px;
+  padding: 2px;
+}
+.form-control{
+  /* padding: 10px; */
+  /* margin-left: 15px; */
+  border-style: none;
+  
+}
+.fa {
+  margin :10px;
+}
+.fa:hover{
+  color: rgb(140, 12, 99);
+}
+
+.addeditem-container{
+  margin-top: 10px;
+  border-radius: 4px;
+  background: rgb(186, 157, 157);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+}
+
+.listitems{
+  display: inline;
+
+  font-family: 'Montserrat', sans-serif;
+}
+.todo-btn{
+  display: inline;
+}
+.eachitem{
+  /* border-style: groove; */
+  border-color: black;
+  border-radius:  3px;
+  border: 3px;
+  margin: 4px;
+}
+
+
+
+
+
+
+/* CSS for button (delete all) */
+.button-29 {
+  align-items: center;
+  appearance: none;
+  background-image: radial-gradient(100% 100% at 100% 0, #5adaff 0, #5468ff 100%);
+  border: 0;
+  border-radius: 6px;
+  box-shadow: rgba(45, 35, 66, .4) 0 2px 4px,rgba(45, 35, 66, .3) 0 7px 13px -3px,rgba(58, 65, 111, .5) 0 -3px 0 inset;
+  box-sizing: border-box;
+  color: #fff;
+  cursor: pointer;
+  display: inline-flex;
+  font-family: "JetBrains Mono",monospace;
+  height: 48px;
+  justify-content: center;
+  line-height: 1;
+  list-style: none;
+  overflow: hidden;
+  padding-left: 16px;
+  padding-right: 16px;
+  position: relative;
+  text-align: left;
+  text-decoration: none;
+  transition: box-shadow .15s,transform .15s;
+  user-select: none;
+  -webkit-user-select: none;
+  touch-action: manipulation;
+  white-space: nowrap;
+  will-change: box-shadow,transform;
+  font-size: 18px;
+}
+
+.button-29:focus {
+  box-shadow: #3c4fe0 0 0 0 1.5px inset, rgba(45, 35, 66, .4) 0 2px 4px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+}
+
+.button-29:hover {
+  box-shadow: rgba(45, 35, 66, .4) 0 4px 8px, rgba(45, 35, 66, .3) 0 7px 13px -3px, #3c4fe0 0 -3px 0 inset;
+  transform: translateY(-2px);
+}
+
+.button-29:active {
+  box-shadow: #3c4fe0 0 3px 7px inset;
+  transform: translateY(2px);
+}
