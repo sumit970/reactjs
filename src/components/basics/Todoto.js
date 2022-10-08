@@ -110,7 +110,6 @@ const item_todo_edited=  items.find((currelem)=>{
               <i className="fa fa-edit add-btn"onClick={Additem} ></i>
               ) : (
                 <i className=" fa fa-plus del-btn" onClick={Additem}></i>
-
             )}
 
           </div>
