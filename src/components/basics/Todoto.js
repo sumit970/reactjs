@@ -12,7 +12,7 @@ const getLocalData=()=>{
   }
 };
 
-const  Todoto=()=> {
+  const  Todoto=()=> {
   const [inputdata, setinputData] = useState("");
   const [items, setitems] = useState(getLocalData());
   const [isedititems,setedititems] = useState("");
@@ -150,3 +150,5 @@ const item_todo_edited=  items.find((currelem)=>{
 }
 
 export default Todoto;
+
+
